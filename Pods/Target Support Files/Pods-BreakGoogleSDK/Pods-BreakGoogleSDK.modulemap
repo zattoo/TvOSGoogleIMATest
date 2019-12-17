@@ -1,0 +1,6 @@
+framework module Pods_BreakGoogleSDK {
+  umbrella header "Pods-BreakGoogleSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

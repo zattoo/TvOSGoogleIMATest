@@ -1,0 +1,6 @@
+framework module ZattooFoundation {
+  umbrella header "ZattooFoundation-umbrella.h"
+
+  export *
+  module * { export * }
+}

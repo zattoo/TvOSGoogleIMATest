@@ -1,0 +1,22 @@
+//
+//  ImageStyleModel+DTO.swift
+//  ZattooFoundation
+//
+//  Created by Christopher Goldsby on 2/18/19.
+//  Copyright © 2019 Zattoo, Inc. All rights reserved.
+//
+
+import Foundation
+
+
+extension ImageStyleModel: DTOConvertible {
+
+    var DTO: ImageStyle {
+        switch self {
+        case .landscape:
+            return .landscape
+        case .portrait:
+            return .portrait
+        }
+    }
+}

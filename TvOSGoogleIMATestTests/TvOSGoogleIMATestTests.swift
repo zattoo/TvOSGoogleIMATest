@@ -1,6 +1,6 @@
 //
-//  BreakGoogleSDKTests.swift
-//  BreakGoogleSDKTests
+//  TvOSGoogleIMATestTests.swift
+//  TvOSGoogleIMATest
 //
 //  Created by Fernando Suarez on 17.12.19.
 //  Copyright © 2019 Fernando Suarez. All rights reserved.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class BreakGoogleSDKTests: XCTestCase {
+class TvOSGoogleIMATestTests: XCTestCase {
     
     //var Rectangle
 

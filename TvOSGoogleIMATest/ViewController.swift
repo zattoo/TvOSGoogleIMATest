@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  BreakGoogleSDK
+//  TvOSGoogleIMATest
 //
 //  Created by Fernando Suarez on 17.12.19.
 //  Copyright © 2019 Fernando Suarez. All rights reserved.

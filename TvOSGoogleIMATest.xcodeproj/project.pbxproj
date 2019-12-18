@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1ABE03A5DAC982ACF5AFE931 /* Pods_BreakGoogleSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96CF8DDC9B5E83126CC687ED /* Pods_BreakGoogleSDK.framework */; };
+		4A8711E72DCB4F4A502284BC /* Pods_TvOSGoogleIMATest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6C3C30A8457790A43A83F4B /* Pods_TvOSGoogleIMATest.framework */; };
 		87400EBE23A8DE30009B2BD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87400EBD23A8DE30009B2BD9 /* AppDelegate.swift */; };
 		87400EC023A8DE30009B2BD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87400EBF23A8DE30009B2BD9 /* ViewController.swift */; };
 		87400EC323A8DE30009B2BD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87400EC123A8DE30009B2BD9 /* Main.storyboard */; };
 		87400EC523A8DE32009B2BD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87400EC423A8DE32009B2BD9 /* Assets.xcassets */; };
 		87400EC823A8DE32009B2BD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87400EC623A8DE32009B2BD9 /* LaunchScreen.storyboard */; };
-		87400ED623A90B3B009B2BD9 /* BreakGoogleSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87400ED523A90B3B009B2BD9 /* BreakGoogleSDKTests.swift */; };
+		87400ED623A90B3B009B2BD9 /* TvOSGoogleIMATestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87400ED523A90B3B009B2BD9 /* TvOSGoogleIMATestTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,17 +29,19 @@
 /* Begin PBXFileReference section */
 		799C65B237464302B6940E8E /* Pods-BreakGoogleSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BreakGoogleSDK.debug.xcconfig"; path = "Target Support Files/Pods-BreakGoogleSDK/Pods-BreakGoogleSDK.debug.xcconfig"; sourceTree = "<group>"; };
 		85AA5FDB09D7DF4D3A9C3B21 /* Pods-BreakGoogleSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BreakGoogleSDK.release.xcconfig"; path = "Target Support Files/Pods-BreakGoogleSDK/Pods-BreakGoogleSDK.release.xcconfig"; sourceTree = "<group>"; };
-		87400EBA23A8DE30009B2BD9 /* BreakGoogleSDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreakGoogleSDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87400EBA23A8DE30009B2BD9 /* TvOSGoogleIMATest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TvOSGoogleIMATest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87400EBD23A8DE30009B2BD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		87400EBF23A8DE30009B2BD9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		87400EC223A8DE30009B2BD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		87400EC423A8DE32009B2BD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87400EC723A8DE32009B2BD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		87400EC923A8DE32009B2BD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		87400ED323A90B3B009B2BD9 /* BreakGoogleSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BreakGoogleSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		87400ED523A90B3B009B2BD9 /* BreakGoogleSDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakGoogleSDKTests.swift; sourceTree = "<group>"; };
+		87400ED323A90B3B009B2BD9 /* TvOSGoogleIMATestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TvOSGoogleIMATestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87400ED523A90B3B009B2BD9 /* TvOSGoogleIMATestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvOSGoogleIMATestTests.swift; sourceTree = "<group>"; };
 		87400ED723A90B3B009B2BD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		96CF8DDC9B5E83126CC687ED /* Pods_BreakGoogleSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BreakGoogleSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A34CA476E38523EA8CD87539 /* Pods-TvOSGoogleIMATest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TvOSGoogleIMATest.debug.xcconfig"; path = "Target Support Files/Pods-TvOSGoogleIMATest/Pods-TvOSGoogleIMATest.debug.xcconfig"; sourceTree = "<group>"; };
+		AEA26599181BE9597B23B7EC /* Pods-TvOSGoogleIMATest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TvOSGoogleIMATest.release.xcconfig"; path = "Target Support Files/Pods-TvOSGoogleIMATest/Pods-TvOSGoogleIMATest.release.xcconfig"; sourceTree = "<group>"; };
+		E6C3C30A8457790A43A83F4B /* Pods_TvOSGoogleIMATest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TvOSGoogleIMATest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,7 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1ABE03A5DAC982ACF5AFE931 /* Pods_BreakGoogleSDK.framework in Frameworks */,
+				4A8711E72DCB4F4A502284BC /* Pods_TvOSGoogleIMATest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +68,8 @@
 			children = (
 				799C65B237464302B6940E8E /* Pods-BreakGoogleSDK.debug.xcconfig */,
 				85AA5FDB09D7DF4D3A9C3B21 /* Pods-BreakGoogleSDK.release.xcconfig */,
+				A34CA476E38523EA8CD87539 /* Pods-TvOSGoogleIMATest.debug.xcconfig */,
+				AEA26599181BE9597B23B7EC /* Pods-TvOSGoogleIMATest.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -73,8 +77,8 @@
 		87400EB123A8DE30009B2BD9 = {
 			isa = PBXGroup;
 			children = (
-				87400EBC23A8DE30009B2BD9 /* BreakGoogleSDK */,
-				87400ED423A90B3B009B2BD9 /* BreakGoogleSDKTests */,
+				87400EBC23A8DE30009B2BD9 /* TvOSGoogleIMATest */,
+				87400ED423A90B3B009B2BD9 /* TvOSGoogleIMATestTests */,
 				87400EBB23A8DE30009B2BD9 /* Products */,
 				06899C2B739E62A27B505E13 /* Pods */,
 				B8D2D311E1766BEEF9BF8946 /* Frameworks */,
@@ -84,13 +88,13 @@
 		87400EBB23A8DE30009B2BD9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				87400EBA23A8DE30009B2BD9 /* BreakGoogleSDK.app */,
-				87400ED323A90B3B009B2BD9 /* BreakGoogleSDKTests.xctest */,
+				87400EBA23A8DE30009B2BD9 /* TvOSGoogleIMATest.app */,
+				87400ED323A90B3B009B2BD9 /* TvOSGoogleIMATestTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		87400EBC23A8DE30009B2BD9 /* BreakGoogleSDK */ = {
+		87400EBC23A8DE30009B2BD9 /* TvOSGoogleIMATest */ = {
 			isa = PBXGroup;
 			children = (
 				87400EBD23A8DE30009B2BD9 /* AppDelegate.swift */,
@@ -100,22 +104,22 @@
 				87400EC623A8DE32009B2BD9 /* LaunchScreen.storyboard */,
 				87400EC923A8DE32009B2BD9 /* Info.plist */,
 			);
-			path = BreakGoogleSDK;
+			path = TvOSGoogleIMATest;
 			sourceTree = "<group>";
 		};
-		87400ED423A90B3B009B2BD9 /* BreakGoogleSDKTests */ = {
+		87400ED423A90B3B009B2BD9 /* TvOSGoogleIMATestTests */ = {
 			isa = PBXGroup;
 			children = (
-				87400ED523A90B3B009B2BD9 /* BreakGoogleSDKTests.swift */,
+				87400ED523A90B3B009B2BD9 /* TvOSGoogleIMATestTests.swift */,
 				87400ED723A90B3B009B2BD9 /* Info.plist */,
 			);
-			path = BreakGoogleSDKTests;
+			path = TvOSGoogleIMATestTests;
 			sourceTree = "<group>";
 		};
 		B8D2D311E1766BEEF9BF8946 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				96CF8DDC9B5E83126CC687ED /* Pods_BreakGoogleSDK.framework */,
+				E6C3C30A8457790A43A83F4B /* Pods_TvOSGoogleIMATest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -123,9 +127,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		87400EB923A8DE30009B2BD9 /* BreakGoogleSDK */ = {
+		87400EB923A8DE30009B2BD9 /* TvOSGoogleIMATest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 87400ECC23A8DE32009B2BD9 /* Build configuration list for PBXNativeTarget "BreakGoogleSDK" */;
+			buildConfigurationList = 87400ECC23A8DE32009B2BD9 /* Build configuration list for PBXNativeTarget "TvOSGoogleIMATest" */;
 			buildPhases = (
 				37152D6085D4A9CD47C08890 /* [CP] Check Pods Manifest.lock */,
 				87400EB623A8DE30009B2BD9 /* Sources */,
@@ -137,14 +141,14 @@
 			);
 			dependencies = (
 			);
-			name = BreakGoogleSDK;
+			name = TvOSGoogleIMATest;
 			productName = BreakGoogleSDK;
-			productReference = 87400EBA23A8DE30009B2BD9 /* BreakGoogleSDK.app */;
+			productReference = 87400EBA23A8DE30009B2BD9 /* TvOSGoogleIMATest.app */;
 			productType = "com.apple.product-type.application";
 		};
-		87400ED223A90B3B009B2BD9 /* BreakGoogleSDKTests */ = {
+		87400ED223A90B3B009B2BD9 /* TvOSGoogleIMATestTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 87400EDC23A90B3B009B2BD9 /* Build configuration list for PBXNativeTarget "BreakGoogleSDKTests" */;
+			buildConfigurationList = 87400EDC23A90B3B009B2BD9 /* Build configuration list for PBXNativeTarget "TvOSGoogleIMATestTests" */;
 			buildPhases = (
 				87400ECF23A90B3B009B2BD9 /* Sources */,
 				87400ED023A90B3B009B2BD9 /* Frameworks */,
@@ -155,9 +159,9 @@
 			dependencies = (
 				87400ED923A90B3B009B2BD9 /* PBXTargetDependency */,
 			);
-			name = BreakGoogleSDKTests;
+			name = TvOSGoogleIMATestTests;
 			productName = BreakGoogleSDKTests;
-			productReference = 87400ED323A90B3B009B2BD9 /* BreakGoogleSDKTests.xctest */;
+			productReference = 87400ED323A90B3B009B2BD9 /* TvOSGoogleIMATestTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -179,7 +183,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 87400EB523A8DE30009B2BD9 /* Build configuration list for PBXProject "BreakGoogleSDK" */;
+			buildConfigurationList = 87400EB523A8DE30009B2BD9 /* Build configuration list for PBXProject "TvOSGoogleIMATest" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -192,8 +196,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				87400EB923A8DE30009B2BD9 /* BreakGoogleSDK */,
-				87400ED223A90B3B009B2BD9 /* BreakGoogleSDKTests */,
+				87400EB923A8DE30009B2BD9 /* TvOSGoogleIMATest */,
+				87400ED223A90B3B009B2BD9 /* TvOSGoogleIMATestTests */,
 			);
 		};
 /* End PBXProject section */
@@ -234,7 +238,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-BreakGoogleSDK-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-TvOSGoogleIMATest-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -247,15 +251,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BreakGoogleSDK/Pods-BreakGoogleSDK-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-TvOSGoogleIMATest/Pods-TvOSGoogleIMATest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BreakGoogleSDK/Pods-BreakGoogleSDK-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-TvOSGoogleIMATest/Pods-TvOSGoogleIMATest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BreakGoogleSDK/Pods-BreakGoogleSDK-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TvOSGoogleIMATest/Pods-TvOSGoogleIMATest-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -274,7 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87400ED623A90B3B009B2BD9 /* BreakGoogleSDKTests.swift in Sources */,
+				87400ED623A90B3B009B2BD9 /* TvOSGoogleIMATestTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +287,7 @@
 /* Begin PBXTargetDependency section */
 		87400ED923A90B3B009B2BD9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 87400EB923A8DE30009B2BD9 /* BreakGoogleSDK */;
+			target = 87400EB923A8DE30009B2BD9 /* TvOSGoogleIMATest */;
 			targetProxy = 87400ED823A90B3B009B2BD9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -428,7 +432,7 @@
 		};
 		87400ECD23A8DE32009B2BD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 799C65B237464302B6940E8E /* Pods-BreakGoogleSDK.debug.xcconfig */;
+			baseConfigurationReference = A34CA476E38523EA8CD87539 /* Pods-TvOSGoogleIMATest.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
@@ -436,12 +440,12 @@
 				DEVELOPMENT_TEAM = AGFP7LBY89;
 				ENABLE_ON_DEMAND_RESOURCES = YES;
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
-				INFOPLIST_FILE = BreakGoogleSDK/Info.plist;
+				INFOPLIST_FILE = TvOSGoogleIMATest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = nano.BreakGoogleSDK;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zattoo.TvOSGoogleIMATest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_TREAT_WARNINGS_AS_ERRORS = YES;
 				SWIFT_VERSION = 5.0;
@@ -452,7 +456,7 @@
 		};
 		87400ECE23A8DE32009B2BD9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 85AA5FDB09D7DF4D3A9C3B21 /* Pods-BreakGoogleSDK.release.xcconfig */;
+			baseConfigurationReference = AEA26599181BE9597B23B7EC /* Pods-TvOSGoogleIMATest.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
@@ -460,12 +464,12 @@
 				DEVELOPMENT_TEAM = AGFP7LBY89;
 				ENABLE_ON_DEMAND_RESOURCES = YES;
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
-				INFOPLIST_FILE = BreakGoogleSDK/Info.plist;
+				INFOPLIST_FILE = TvOSGoogleIMATest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = nano.BreakGoogleSDK;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zattoo.TvOSGoogleIMATest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_TREAT_WARNINGS_AS_ERRORS = YES;
 				SWIFT_VERSION = 5.0;
@@ -480,18 +484,18 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AGFP7LBY89;
-				INFOPLIST_FILE = BreakGoogleSDKTests/Info.plist;
+				INFOPLIST_FILE = TvOSGoogleIMATestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = nano.BreakGoogleSDKTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zattoo.TvOSGoogleIMATestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_TREAT_WARNINGS_AS_ERRORS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BreakGoogleSDK.app/BreakGoogleSDK";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TvOSGoogleIMATest.app/TvOSGoogleIMATest";
 			};
 			name = Debug;
 		};
@@ -502,24 +506,24 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AGFP7LBY89;
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
-				INFOPLIST_FILE = BreakGoogleSDKTests/Info.plist;
+				INFOPLIST_FILE = TvOSGoogleIMATestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = nano.BreakGoogleSDKTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zattoo.TvOSGoogleIMATestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BreakGoogleSDK.app/BreakGoogleSDK";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TvOSGoogleIMATest.app/TvOSGoogleIMATest";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		87400EB523A8DE30009B2BD9 /* Build configuration list for PBXProject "BreakGoogleSDK" */ = {
+		87400EB523A8DE30009B2BD9 /* Build configuration list for PBXProject "TvOSGoogleIMATest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				87400ECA23A8DE32009B2BD9 /* Debug */,
@@ -528,7 +532,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		87400ECC23A8DE32009B2BD9 /* Build configuration list for PBXNativeTarget "BreakGoogleSDK" */ = {
+		87400ECC23A8DE32009B2BD9 /* Build configuration list for PBXNativeTarget "TvOSGoogleIMATest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				87400ECD23A8DE32009B2BD9 /* Debug */,
@@ -537,7 +541,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		87400EDC23A90B3B009B2BD9 /* Build configuration list for PBXNativeTarget "BreakGoogleSDKTests" */ = {
+		87400EDC23A90B3B009B2BD9 /* Build configuration list for PBXNativeTarget "TvOSGoogleIMATestTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				87400EDA23A90B3B009B2BD9 /* Debug */,

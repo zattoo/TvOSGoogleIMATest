@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 Pod::Spec.new do |s|
   s.static_framework = true
   s.name = 'TvOSGoogleIMATest'

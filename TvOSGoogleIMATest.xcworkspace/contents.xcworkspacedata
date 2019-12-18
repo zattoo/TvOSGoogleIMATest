@@ -2,9 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:BreakGoogleSDK.xcodeproj">
+      location = "group:/Users/vitalij/_apps/TvOSGoogleIMATest/TvOSGoogleIMATest.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:TvOSGoogleIMATest.xcodeproj">
    </FileRef>
 </Workspace>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1120"
+   LastUpgradeVersion = "1130"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "87400EB923A8DE30009B2BD9"
-               BuildableName = "BreakGoogleSDK.app"
-               BlueprintName = "BreakGoogleSDK"
-               ReferencedContainer = "container:BreakGoogleSDK.xcodeproj">
+               BuildableName = "TvOSGoogleIMATest.app"
+               BlueprintName = "TvOSGoogleIMATest"
+               ReferencedContainer = "container:TvOSGoogleIMATest.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "87400ED223A90B3B009B2BD9"
-               BuildableName = "BreakGoogleSDKTests.xctest"
-               BlueprintName = "BreakGoogleSDKTests"
-               ReferencedContainer = "container:BreakGoogleSDK.xcodeproj">
+               BuildableName = "TvOSGoogleIMATestTests.xctest"
+               BlueprintName = "TvOSGoogleIMATestTests"
+               ReferencedContainer = "container:TvOSGoogleIMATest.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "87400EB923A8DE30009B2BD9"
-            BuildableName = "BreakGoogleSDK.app"
-            BlueprintName = "BreakGoogleSDK"
-            ReferencedContainer = "container:BreakGoogleSDK.xcodeproj">
+            BuildableName = "TvOSGoogleIMATest.app"
+            BlueprintName = "TvOSGoogleIMATest"
+            ReferencedContainer = "container:TvOSGoogleIMATest.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "87400EB923A8DE30009B2BD9"
-            BuildableName = "BreakGoogleSDK.app"
-            BlueprintName = "BreakGoogleSDK"
-            ReferencedContainer = "container:BreakGoogleSDK.xcodeproj">
+            BuildableName = "TvOSGoogleIMATest.app"
+            BlueprintName = "TvOSGoogleIMATest"
+            ReferencedContainer = "container:TvOSGoogleIMATest.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

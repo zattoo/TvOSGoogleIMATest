@@ -15,12 +15,16 @@ Install _fastlane_ using
 or alternatively using `brew cask install fastlane`
 
 # Available Actions
-## iOS
-### ios custom_lane
+### test
 ```
-fastlane ios custom_lane
+fastlane test
 ```
-Description of what the lane does
+Run all the tests suites of the project
+### lint
+```
+fastlane lint
+```
+Check style and conventions
 
 ----
 

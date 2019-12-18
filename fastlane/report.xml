@@ -5,7 +5,7 @@
     
     
       
-      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.024425">
+      <testcase classname="fastlane.lanes" name="0: clear_derived_data" time="3.085004">
         
       </testcase>
     

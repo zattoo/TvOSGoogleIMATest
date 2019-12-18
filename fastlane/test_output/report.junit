@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <testsuites name='BreakGoogleSDKTests.xctest' tests='2' failures='0'>
   <testsuite name='BreakGoogleSDKTests.BreakGoogleSDKTests' tests='2' failures='0'>
-    <testcase classname='BreakGoogleSDKTests.BreakGoogleSDKTests' name='testExample' time='0.002'/>
-    <testcase classname='BreakGoogleSDKTests.BreakGoogleSDKTests' name='testPerformanceExample' time='0.352'/>
+    <testcase classname='BreakGoogleSDKTests.BreakGoogleSDKTests' name='testExample' time='0.001'/>
+    <testcase classname='BreakGoogleSDKTests.BreakGoogleSDKTests' name='testPerformanceExample' time='0.343'/>
   </testsuite>
 </testsuites>

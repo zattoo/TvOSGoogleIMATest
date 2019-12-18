@@ -1,0 +1,39 @@
+whitelist_rules:
+  - closing_brace
+  - colon
+  - comma
+  - control_statement
+  - custom_rules
+  - empty_count
+  - leading_whitespace
+  - legacy_cggeometry_functions
+  - legacy_constant
+  - legacy_constructor
+  - mark
+  - opening_brace
+  - operator_whitespace
+  - private_unit_test
+  - redundant_nil_coalesing
+  - redundant_string_enum_value
+  - return_arrow_whitespace
+  - syntactic_sugar
+  - trailing_semicolon
+  - void_return
+
+excluded:
+  - Pods
+  - ZattooUIKit-Examples
+
+colon:
+  apply_to_dictionaries: false
+
+custom_rules:
+  equal_sign_whitespace:
+    message: "Expected only one space before and after ="
+    regex: "(([ ]{2,}=)|(=[ ]{2,}))"
+  press_types:
+    message: "Use ZattooUIKit's NSNumber static press types instead"
+    regex: 'NSNumber\(value: UIPressType\..*\.rawValue\)'
+  touch_types:
+    message: "Use ZattooUIKit's NSNumber static touch types instead"
+    regex: 'NSNumber\(value: UITouchType\..*\.rawValue\)'

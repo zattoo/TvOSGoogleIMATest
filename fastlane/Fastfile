@@ -13,11 +13,29 @@
 # Uncomment the line if you want fastlane to automatically update itself
 # update_fastlane
 
-default_platform(:ios)
+ENV["FASTLANE_HIDE_CHANGELOG"] = "true"
+ENV["FASTLANE_SKIP_UPDATE_CHECK"] = "true"
 
-platform :ios do
-  desc "Description of what the lane does"
-  lane :custom_lane do
-    # add actions here: https://docs.fastlane.tools/actions
-  end
+desc "Run all the tests suites of the project"
+lane :test do
+  clear_derived_data
+  update_pods
+  test_tvos
+  lint
+end
+
+desc "Check style and conventions"
+lane :lint do
+  rubocop
+  swiftlint(executable: 'Pods/SwiftLint/swiftlint', strict: true)
+end
+
+desc "Update CocoaPods"
+private_lane :update_pods do
+    cocoapods(repo_update: true)
+end
+
+desc "Run all the tests suites of the project for tvOS"
+private_lane :test_tvos do
+  scan(scheme: 'BreakGoogleSDK', device: 'Apple TV 4K (13.3)')
 end

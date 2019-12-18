@@ -1,0 +1,19 @@
+language: swift
+notifications:
+  email: false
+osx_image: xcode11.3
+cache:
+  bundler: true
+  cocoapods: true
+  directories:
+    - $HOME/Library/Caches/Homebrew
+    - ~/.cocoapods/repos/cocoapods-
+before_install:
+  - gem install bundler
+  - bundle install
+  - brew update && brew bundle
+install: true
+rvm:
+  - 2.4.1
+script:
+  - bundle exec fastlane test

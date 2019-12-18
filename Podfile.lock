@@ -1,44 +1,16 @@
 PODS:
-  - Alamofire (4.7.3)
   - GoogleAds-IMA-tvOS-SDK (4.2.0)
-  - ReachabilitySwift (4.3.0)
-  - SwiftDate (6.0.2)
-  - SwiftyJSON (4.2.0)
-  - ZattooFoundation (2.1.0):
-    - Alamofire (~> 4.7.3)
-    - ReachabilitySwift (= 4.3.0)
-    - SwiftDate (= 6.0.2)
-    - SwiftyJSON (~> 4.2.0)
 
 DEPENDENCIES:
   - GoogleAds-IMA-tvOS-SDK (~> 4.2.0)
-  - ZattooFoundation (from `https://github.com/zattoo/ZattooFoundation.git`)
 
 SPEC REPOS:
   trunk:
-    - Alamofire
     - GoogleAds-IMA-tvOS-SDK
-    - ReachabilitySwift
-    - SwiftDate
-    - SwiftyJSON
-
-EXTERNAL SOURCES:
-  ZattooFoundation:
-    :git: https://github.com/zattoo/ZattooFoundation.git
-
-CHECKOUT OPTIONS:
-  ZattooFoundation:
-    :commit: fa451bd2efdbb031e8d354f105feedb3b6a884f8
-    :git: https://github.com/zattoo/ZattooFoundation.git
 
 SPEC CHECKSUMS:
-  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
   GoogleAds-IMA-tvOS-SDK: bab6f0bd988b4cc3f4f7603e943d22818b37d41c
-  ReachabilitySwift: 408477d1b6ed9779dba301953171e017c31241f3
-  SwiftDate: bbed9b23bfec599bd62b9a305afc554f7bd0eb6f
-  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
-  ZattooFoundation: b19d12613e5108bc70a592da11f5e7f94327dd3a
 
-PODFILE CHECKSUM: 8bf1e1117722de117866397cc85777e985309f78
+PODFILE CHECKSUM: 8a6ecc05b87790cc814fa02441bca9a3f55808c9
 
 COCOAPODS: 1.8.4

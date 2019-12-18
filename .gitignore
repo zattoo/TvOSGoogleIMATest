@@ -1,0 +1,17 @@
+#Xcode
+xcuserdata/
+
+# OS X
+.DS_Store
+
+# Cococapods
+Pods/
+
+# Fastlane
+fastlane/report.xml
+fastlane/test_output
+
+*.xcscmblueprint
+
+# Shapshot Tests
+ZattooUIKit/Tests/FailureDiffs/
